@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "AIGC JSON 表单生成器",
+    "about": "关于",
+    "aboutDesc": "一个用于配置 AIGC 图像/视频生成参数并输出结构化 JSON 的工具。",
+    "sourceCode": "源代码",
+    "contact": "联系方式",
+    "contactDesc": "如有问题或建议，欢迎通过 GitHub Issues 联系。",
+    "version": "版本"
+  },
+  "lang": {
+    "zh": "中文",
+    "en": "English"
+  },
+  "actions": {
+    "copy": "复制 JSON",
+    "download": "下载 JSON",
+    "reset": "重置表单",
+    "copied": "已复制!",
+    "preview": "预览 JSON"
+  },
+  "section": {
+    "prompts": "描述性提示词",
+    "textToImage": "文生图",
+    "imageToVideo": "图生视频",
+    "jsonPreview": "JSON 预览",
+    "both": "全部"
+  },
+  "prompt": {
+    "finalPrompt": "最终提示词",
+    "camera": "镜头",
+    "lighting": "灯光",
+    "colorGrade": "色调/调色",
+    "texture": "质感",
+    "moodStoryBeat": "氛围/故事节拍"
+  },
+  "t2i": {
+    "aspectRatio": "画面比例",
+    "camera": "镜头",
+    "lensMm": "镜头焦距",
+    "aperture": "光圈",
+    "lighting": "灯光",
+    "grade": "调色",
+    "texture": "质感",
+    "styleTags": "风格标签",
+    "negative": "负面提示",
+    "tagPlaceholder": "输入后按 Enter 添加"
+  },
+  "history": {
+    "title": "历史记录",
+    "tabMemo": "备忘录",
+    "tabHistory": "历史记录",
+    "save": "保存",
+    "saveParams": "保存参数",
+    "remark": "备注",
+    "remarkPlaceholder": "输入备注说明",
+    "cancel": "取消",
+    "confirm": "保存",
+    "saved": "已保存!",
+    "empty": "暂无记录",
+    "emptyMemo": "暂无备忘录",
+    "emptyHistory": "复制 JSON 时会自动记录",
+    "deleteSelected": "删除选中",
+    "selectAll": "全选",
+    "unselectAll": "取消全选",
+    "clearAll": "清空",
+    "confirmClear": "确定要清空吗？",
+    "loaded": "已加载!"
+  },
+  "i2v": {
+    "aspectRatio": "画面比例",
+    "camera": "镜头",
+    "lensMm": "镜头焦距",
+    "aperture": "光圈",
+    "lighting": "灯光",
+    "durationS": "时长（秒）",
+    "movement": "运动",
+    "motionCurve": "运动曲线",
+    "stabilization": "稳定性",
+    "depthOfField": "景深",
+    "focusTarget": "对焦目标",
+    "grain": "胶片颗粒",
+    "grade": "调色",
+    "parallax": "视差",
+    "strength": "强度",
+    "shotNotes": "镜头说明",
+    "importFromT2i": "从文生图导入",
+    "importHint": "导入画面比例、镜头、焦距、光圈",
+    "imported": "已导入!"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "AIGC JSON Form Generator",
+    "about": "About",
+    "aboutDesc": "A tool for configuring AIGC image/video generation parameters and outputting structured JSON.",
+    "sourceCode": "Source Code",
+    "contact": "Contact",
+    "contactDesc": "For questions or suggestions, please reach out via GitHub Issues.",
+    "version": "Version"
+  },
+  "lang": {
+    "zh": "中文",
+    "en": "English"
+  },
+  "actions": {
+    "copy": "Copy JSON",
+    "download": "Download JSON",
+    "reset": "Reset Form",
+    "copied": "Copied!",
+    "preview": "Preview JSON"
+  },
+  "section": {
+    "prompts": "Descriptive Prompts",
+    "textToImage": "Text-to-Image",
+    "imageToVideo": "Image-to-Video",
+    "jsonPreview": "JSON Preview",
+    "both": "All"
+  },
+  "prompt": {
+    "finalPrompt": "Final Prompt",
+    "camera": "Camera",
+    "lighting": "Lighting",
+    "colorGrade": "Color/Grade",
+    "texture": "Texture",
+    "moodStoryBeat": "Mood/Story Beat"
+  },
+  "t2i": {
+    "aspectRatio": "Aspect Ratio",
+    "camera": "Camera",
+    "lensMm": "Lens (mm)",
+    "aperture": "Aperture",
+    "lighting": "Lighting",
+    "grade": "Grade",
+    "texture": "Texture",
+    "styleTags": "Style Tags",
+    "negative": "Negative Prompt",
+    "tagPlaceholder": "Type and press Enter to add"
+  },
+  "history": {
+    "title": "History",
+    "tabMemo": "Memos",
+    "tabHistory": "History",
+    "save": "Save",
+    "saveParams": "Save Parameters",
+    "remark": "Remark",
+    "remarkPlaceholder": "Enter a remark",
+    "cancel": "Cancel",
+    "confirm": "Save",
+    "saved": "Saved!",
+    "empty": "No records yet",
+    "emptyMemo": "No memos yet",
+    "emptyHistory": "Auto-saved when you copy JSON",
+    "deleteSelected": "Delete Selected",
+    "selectAll": "Select All",
+    "unselectAll": "Unselect All",
+    "clearAll": "Clear",
+    "confirmClear": "Are you sure you want to clear?",
+    "loaded": "Loaded!"
+  },
+  "i2v": {
+    "aspectRatio": "Aspect Ratio",
+    "camera": "Camera",
+    "lensMm": "Lens (mm)",
+    "aperture": "Aperture",
+    "lighting": "Lighting",
+    "durationS": "Duration (s)",
+    "movement": "Movement",
+    "motionCurve": "Motion Curve",
+    "stabilization": "Stabilization",
+    "depthOfField": "Depth of Field",
+    "focusTarget": "Focus Target",
+    "grain": "Film Grain",
+    "grade": "Grade",
+    "parallax": "Parallax",
+    "strength": "Strength",
+    "shotNotes": "Shot Notes",
+    "importFromT2i": "Import from Text-to-Image",
+    "importHint": "Import aspect ratio, camera, lens, aperture",
+    "imported": "Imported!"
+  }
+}
